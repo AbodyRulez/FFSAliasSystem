@@ -18,3 +18,29 @@ Months: 12 - 6 - 3 - 1
 Days: 15 - 7 - 3 - 1
 Hours: 12 - 6 - 3 - 1
 Minutes: 30 - 15 - 10 - 5
+
+
+Changelog: 8/29/2015
+Database changed from SQLite to MySQL "Allows communicating with the database from forums in the future 'thanks to Bauss'"
+Added warns system
+Warns system automatically punishes players after a certain amount of warns:
+- 3 days ban for 3rd warn
+- 5 days ban for 4th warn
+- 7 days ban for 5th warn
+- 30 days ban for 10th warn
+Added warn / unwarn buttons.
+Registered players are logged in Database with their forums user id "Connected element with forum account"
+Fixed low resolution not showing permanent tab bug.
+Fixed minor bugs.
+
+
+Changelog: 8/30/2015
+Added Unban tab to log players' unban date and the nickname of the responsible admin, as requested.
+Fixed a major bug.
+
+
+Changelog: 3/19/2016
+It's been a long time since the last changelog, here are the final touches update.
+Added the /alias command admin only restriction to toggle the panel's visibility.
+Fixed FFS player join capture.
+Fixed minor bugs.
