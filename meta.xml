@@ -1,0 +1,5 @@
+<meta>
+	<info author="-ffs-AbodyRulez" name="FFS Admin Panel" description="Visit http://www.ffsgaming.com" version="3.5" type="misc"/>
+	<script src="alias_server.lua" type="server"/>
+	<script src="alias_GUI.lua" type="client"/>
+</meta>
